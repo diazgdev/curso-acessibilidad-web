@@ -63,7 +63,9 @@ header {
   color: var(--blanco);
   font-family: var(--main-font);
   font-size: 55px;
-  margin-top: 16px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .subtitle {
@@ -102,10 +104,12 @@ header {
   height: 30px;
   justify-content: center;
   width: 33%;
+  padding: 20px;
 }
 
 .nav-item:hover {
   background-color: var(--verde);
+  padding: 20px;
 }
 
 .intro {
@@ -125,6 +129,7 @@ header {
   align-items: center;
   display: flex;
   margin: 48px 0 64px;
+  justify-content: center;
 }
 
 .window {
@@ -138,6 +143,15 @@ header {
   width: 1500px;
 }
 
+.project-container li {
+  display: inline-block;
+}
+
+.project-container button {
+  background: none;
+  border: none;
+}
+
 .project {
   border-radius: 5px;
   border: 2px solid #000;
@@ -146,6 +160,7 @@ header {
   margin: 0 8px;
   transition: all 0.2s ease-in-out;
   width: 250px;
+  object-fit: cover;
 }
 
 .project:hover {
@@ -153,25 +168,6 @@ header {
   transform: scale(1.1);
 }
 
-.project1 {
-  background: center / cover no-repeat url(./images/project1.png);
-}
-
-.project2 {
-  background: center / cover no-repeat url(./images/project2.png);
-}
-
-.project3 {
-  background: center / cover no-repeat url(./images/project3.png);
-}
-
-.project4 {
-  background: center / cover no-repeat url(./images/project4.png);
-}
-
-.project5 {
-  background: center / cover no-repeat url(./images/project5.png);
-}
 
 .arrow {
   height: 75px;
