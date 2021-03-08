@@ -115,6 +115,7 @@ header {
 .intro {
   margin: 0 196px;
   font-family: var(--secondary-font);
+  color: var(--blanco);
 }
 
 .social-media {
@@ -216,6 +217,11 @@ input {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
+}
+
+label {
+  font-family: var(--secondary-font);
+  color: var(--blanco);
 }
 
 .send-button {
