@@ -112,6 +112,15 @@ header {
   padding: 20px;
 }
 
+.nav-item:focus-within {
+  background-color: var(--verde);
+}
+
+.nav-item a:focus {
+  outline: none;
+  color: var(--gris-oscuro);
+}
+
 .intro {
   margin: 0 196px;
   font-family: var(--secondary-font);
@@ -133,6 +142,15 @@ header {
   justify-content: center;
 }
 
+.social-media li a:focus {
+  outline: none;
+}
+
+.social-media li a:focus-within {
+  outline: 3px solid var(--verde);
+  padding: 8px;
+}
+
 .social-link-text {
   color: var(--blanco);
   font-family: var(--secondary-font);
@@ -150,7 +168,8 @@ header {
 
 .window {
   overflow: hidden;
-  width: 805px;
+  width: 815px;
+  padding: 8px;
 }
 
 .project-container {
@@ -166,6 +185,11 @@ header {
 .project-container button {
   background: none;
   border: none;
+  padding: 0;
+}
+
+.project-container button:focus-within {
+  outline: 3px solid var(--verde);
 }
 
 .project {
@@ -207,6 +231,10 @@ header {
   border-radius: 50%;
 }
 
+.arrow:focus {
+  outline: 3px solid var(--verde);
+}
+
 .contact-section {
   align-items: center;
   background-color: var(--gris-oscuro);
@@ -232,6 +260,11 @@ input {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
+}
+
+input:focus {
+  outline: 3px solid var(--verde);
+  padding: 8px;
 }
 
 label {
